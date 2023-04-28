@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	@apply bg-white h-full font-Josefin;
+}
+
+.dropdown:hover .dropdown-menu {
+	opacity: 1;
+}
+
+.button {
+	@apply bg-grey-900 text-grey-50 py-3 px-6 my-4 hover:bg-grey-200 hover:text-grey-900 hover:rounded-lg duration-300 ease-out
+	
+}
+
+@font-face {
+	font-family: "JosefinSans";
+	font-style: normal;
+	font-weight: 200;
+	font-display: swap;
+	src: url("../src/assets/fonts/JosefinSans-ExtraLight.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "JosefinSans";
+	font-style: italic;
+	font-weight: 200;
+	font-display: swap;
+	src: url("../src/assets/fonts/JosefinSans-ExtraLightItalic.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "JosefinSans";
+	font-style: normal;
+	font-weight: 300;
+	font-display: swap;
+	src: url("../src/assets/fonts/JosefinSans-Light.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "JosefinSans";
+	font-style: italic;
+	font-weight: 300;
+	font-display: swap;
+	src: url("../src/assets/fonts/JosefinSans-LightItalic.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "JosefinSans";
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url("../src/assets/fonts/JosefinSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "JosefinSans";
+	font-style: italic;
+	font-weight: 400;
+	font-display: swap;
+	src: url("../src/assets/fonts/JosefinSans-Italic.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "JosefinSans";
+	font-style: normal;
+	font-weight: 500;
+	font-display: swap;
+	src: url("../src/assets/fonts/JosefinSans-Medium.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "JosefinSans";
+	font-style: italic;
+	font-weight: 500;
+	font-display: swap;
+	src: url("../src/assets/fonts/JosefinSans-MediumItalic.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "JosefinSans";
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+	src: url("../src/assets/fonts/JosefinSans-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "JosefinSans";
+	font-style: italic;
+	font-weight: 600;
+	font-display: swap;
+	src: url("../src/assets/fonts/JosefinSans-SemiBoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "JosefinSans";
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url("../src/assets/fonts/JosefinSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "JosefinSans";
+	font-style: italic;
+	font-weight: 700;
+	font-display: swap;
+	src: url("../src/assets/fonts/JosefinSans-BoldItalic.ttf") format("truetype");
+}
