@@ -34,7 +34,7 @@ function Bannercategories() {
 
 	return (
 		<>
-			<div className="flex flex-row justify-center gap-3 my-2">
+			<div className=" flex flex-row justify-center gap-5 my-5">
 			{itemlist}
 			</div>
 		</>
