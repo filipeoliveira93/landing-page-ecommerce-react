@@ -5,21 +5,21 @@ function Bannercategories() {
 			name: 'For Men',
 			description: 'Clothing Bundle Deal',
 			cta: 'View Deal',
-			img: '/src/assets/png/formen.png'
+			img: '/public/assets/png/formen.png'
 		}, 
 		{
 			id:2,
 			name: 'For Woman',
 			description: 'Clothing Bundle Deal',
 			cta: 'View Deal',
-			img: '/src/assets/png/forwoman.png'
+			img: '/public/assets/png/forwoman.png'
 		},
 		{
 			id:3,
 			name: 'Accessories',
 			description: 'Handle Bag Collection',
 			cta: 'View Deal',
-			img: '/src/assets/png/accessories.png'
+			img: '/public/assets/png/accessories.png'
 		}
 
 	]

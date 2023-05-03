@@ -6,7 +6,7 @@ function Banner() {
 			<div className='flex justify-center relative  flex-col items-center '>
 				<img
 					className='w-full h-[667px]'
-					src='/src/assets/png/bannerprincipal.png'
+					src='/public/assets/png/bannerprincipal.png'
 					alt=''
 				/>
 				<div className=' absolute left-[80px] items-start flex-col h-10 flex justify-start font-light'>

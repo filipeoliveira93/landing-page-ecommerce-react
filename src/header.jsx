@@ -14,7 +14,7 @@ function Header() {
 				<div className='px-[32px] h-[100px] mx-auto flex items-center bg-grey-50'>
 					<div className='flex w-full justify-between items-center h-[40px]'>
 						<span className='flex justify-center h-[40px] '>
-							<img className="object-cover w-[40px] h-[40px]" src='../src/assets/logo.png' height={40} width={36}></img>
+							<img className="object-cover w-[40px] h-[40px]" src='/public/assets/logo.png' height={40} width={36}></img>
 						</span>
 						<div className='text-grey-200 gap-x-3 flex h-[24px] items-center justify-center duration-300'>
 							<span className="flex flex-col dropdown">
