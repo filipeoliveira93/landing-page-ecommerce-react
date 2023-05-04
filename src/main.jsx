@@ -4,6 +4,7 @@ import Header from "./header.jsx";
 import Banner from "./banner.jsx";
 import Bannercategories from "./bannercategories.jsx";
 import TrendingProducts from "./trendingproducts.jsx";
+import BannerShirts from "./bannershirts.jsx";
 import "./style.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
@@ -12,5 +13,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 		<Banner />
 		<Bannercategories />
 		<TrendingProducts />
+		<BannerShirts />
 	</React.StrictMode>
 );
